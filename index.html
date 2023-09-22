@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Live Bar for Twitch: Implicit OAuth</title>
+</head>
+<body>
+    <p>You can close this window when done!</p>
+
+     <script type="text/javascript">
+        let redirectPage = "livebar://twitchauth" + window.location.hash;
+        window.location.replace(redirectPage);
+        // window.location.href = redirectPage;
+    </script>
+</body>
+</html>
